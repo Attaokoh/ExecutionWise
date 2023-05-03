@@ -81,7 +81,7 @@
              Responsive Css 
     ===========================*/
     .thanks{
-        width: 80%;
+        width: 90%;
         margin: auto;
         text-align: center;
         padding-top: 30px;
@@ -91,13 +91,17 @@
         height: fit-content;
         margin: auto;
         display: flex;
+        justify-content: space-around;
         background-color: #f1f2f6;
         border-radius: 10px;
     }
     .dav-paul > img{
         width: 100px;
         height: 100px;
-    margin: 10px;        
+        margin: 10px;        
+    }
+    .dav-paul > p{
+        margin: 10px 10px 10px 0px;        
     }
     .questions{
         width: 80%;
