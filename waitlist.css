@@ -91,10 +91,10 @@ body{
     background-color: black;
     cursor: pointer;
 }
-.waitlist-button > button{color: white;
+.waitlist-button > a{
+    color: white;
     font-size: 17px;
-    background-color: black;
-    border: none;
+    text-decoration: none;
 }
 .fa-arrow-right{
     float: right;

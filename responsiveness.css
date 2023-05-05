@@ -74,6 +74,17 @@
     .comingsoon-text{
         margin-top: -50px;
     }
+    .comingsoon-text{
+        animation: comingText 6s infinite reverse ease-in-out;
+    }
+    @keyframes comingText {
+        from{
+            margin-left: -1200px;
+        }
+        to{
+            margin-right: -1130px;
+        }
+    }
 
 
     /*========================== 
@@ -119,4 +130,19 @@
         justify-content: space-between;
         border-bottom: 1px solid rgba(0, 0, 0, 0.062);
     }
+
+
+    /*========================== 
+             Message
+             Responsive Css 
+    ===========================*/
+    .msg-container{
+        min-width: 200px;
+        height: 600px;
+    }
+    .msg-recieved{
+        width: 100px;
+        border-right: 2px solid rgba(0, 0, 0, 0.425);
+    }
+
 }
