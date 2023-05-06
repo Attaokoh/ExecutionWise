@@ -125,6 +125,7 @@
         height: 100%;
         margin: auto;
     }
+   
     /* footer */
     .footer-social-reserve{
         display: block;
@@ -134,7 +135,6 @@
         display: block;
         align-items: center;
         justify-content: space-between;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.062);
     }
 
 
