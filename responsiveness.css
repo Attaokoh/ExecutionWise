@@ -43,6 +43,12 @@
     /*========================== 
          Waitlist Responsive Css 
     ===========================*/
+    .logo h2{
+        margin: 5px;
+    }
+    .thanks{
+        margin-top: 2000px;
+    }
     .hideComingsoonText{
         width: 80%;
         margin: auto;

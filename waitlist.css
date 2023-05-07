@@ -104,19 +104,20 @@ body{
 }
 .follow-us{
     text-align: center;
-    margin: 50px 0px 10px;
+    margin: 20px 0px 10p;
 }
 .social-icons-waitlist{
     text-align: center;
+    margin-bottom: 10px;
 }
-.social-icons-waitlist > .fa-brands{
+.social-icons-waitlist a{
     font-size: 26px;
     padding: 10px;
     border-radius: 50%;
     color: rgb(112, 93, 93);
 }
-.social-icons-waitlist > .fa-brands:hover{
-    background-color: rgba(55, 130, 228, 0.178);
+.social-icons-waitlist a:hover{
+    color: rgb(14, 14, 14);
 }
 
 .comingsoon-box{
